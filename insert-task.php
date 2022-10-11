@@ -17,7 +17,7 @@ $gender = $_POST["gender"];
 
 $conn = mysqli_connect("localhost","root","","smartlab") or die("Connection Failed");
 
-$sql = "INSERT INTO patient(title, fname, lname, aadhar, email, mobile, years, months, p_days, p_address, report, gender, p_time) VALUES ('{$title}', '{$fname}', '{$lname}', '{$aadhar}', '{$email}', '{$mobile}', '{$years}', '{$months}', '{$days}', '{$address}', '{$report}', '{$gender}', '{$task_time}')";
+$sql = "INSERT INTO patient(title, fname, lname, aadhar, email, mobile, years, months, p_days, p_address, report, gender, p_date) VALUES ('{$title}', '{$fname}', '{$lname}', '{$aadhar}', '{$email}', '{$mobile}', '{$years}', '{$months}', '{$days}', '{$address}', '{$report}', '{$gender}', '{$task_time}')";
 
 if(mysqli_query($conn, $sql))
 {
