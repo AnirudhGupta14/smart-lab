@@ -53,11 +53,11 @@
             <div class="col-12">
                 <label for="basic-url12" class="form-label">Gender</label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="male">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Male">
                     <label class="form-check-label" for="flexRadioDefault1">Male</label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked value="female">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked value="Female">
                     <label class="form-check-label" for="flexRadioDefault2">Female</label>
                 </div>
             </div>
