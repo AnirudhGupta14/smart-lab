@@ -35,10 +35,9 @@ $(document).ready(function()
             gender = selected.val();
         } 
         var date = new Date();
-        var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+        var current_date = date.getDate() + "-" + (date.getMonth()+1) + "-" + date.getFullYear();
         var atposition = email.indexOf("@");  
         var dotposition = email.lastIndexOf(".");  
-        console.log(years.toString().length);
         if(title == "" || fname == "" || lname == "" || address == "" || email == "" || years.toString().length == 0 || months.toString().length == 0 || days.toString().length == 0)
         {
             alertmsg("All input fields are required", "danger");
